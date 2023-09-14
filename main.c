@@ -75,15 +75,15 @@ int main()
      */
     while ((fgets(buffer, BUFFER_SIZE, fPtr)) != NULL)
     {
-        printf("1. %s\n",buffer);
+        printf("1. %s\n",buffer); //test to understand while loop
 
         // Remove all occurrence of word from current line
         removeAll(buffer, toRemove);
-        printf("2. %s\n",buffer);
+        printf("2. %s\n",buffer); //test to understand while loop
 
         // Write to temp file
         fputs(buffer, fTemp);
-        printf("3. %s\n",buffer);
+        printf("3. %s\n",buffer); //test to understand while loop
     }
 
 
